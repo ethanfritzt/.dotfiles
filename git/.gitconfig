@@ -1,0 +1,30 @@
+[user]
+    email = ethan.fritz@morelandconnect.com
+    name = Ethan Fritz
+    signingKey = ethan.fritz@morelandconnect.com
+[core]
+    editor = vim
+[log]
+    abbrevCommit = true
+    decorate = short
+    date = format:%a, %Y-%m-%d %R (%z)
+    follow = true
+    graphColors = 1,2,3,4,5,6,8,166,9,10,11,12,13,14,15,208
+    showRoot = true
+    mailmap = true
+[pretty]
+    lo = format:\
+	%C(auto)%h%C(reset)\
+	%C(auto)%d%C(reset)%n\
+	%C(white)Author:%C(reset) %aN\
+	%C(241)<%aE>\
+	%C(reset)%n\
+	%C(italic green)%cd\
+	%C(reset) %C(italic cyan)(%cr)\
+	%C(reset)%n\
+	%C(bold white)\
+	⤷%C(reset)\
+	%C(italic white)%s
+[alias]
+    lg = log --pretty=lo --graph
+    st = log --pretty=lo --stat
