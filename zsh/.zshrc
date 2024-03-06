@@ -30,6 +30,8 @@ alias mysql-start="sudo /usr/local/mysql/support-files/mysql.server start"
 alias mysql-stop="sudo /usr/local/mysql/support-files/mysql.server stop"
 # terminal commands
 alias cls="clear"
+# ctags
+alias ctags="`brew --prefix`/bin/ctags"
 
 # Sets the default editor
 export EDITOR="vim"
@@ -65,3 +67,4 @@ export RPROMPT=''
 # fnm
 export PATH=/home/$USER/.fnm:$PATH
 eval "$(fnm env --use-on-cd --version-file-strategy=recursive)"
+export PATH=$PATH:/Users/ethan/.spicetify
