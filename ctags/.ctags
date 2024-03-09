@@ -1,0 +1,4 @@
+--langmap=javascript:.js.ts.jsx.tsx
+--exclude=node_modules
+--exclude=.git
+--exclude=package-lock.json
