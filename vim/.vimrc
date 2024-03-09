@@ -30,7 +30,14 @@ let g:netrw_browse_split = 0
 syntax enable
 
 " colorscheme
-colorscheme retrobox
+" regex in catch is from :help catch
+" E185 is the error on colorscheme
+" check :help E185 or :help colorscheme
+try 
+    colorscheme retrobox
+catch /^Vim\%((\a\+)\)\=:E185:/
+    colorscheme default
+endtry
 
 " set line numbers
 set nu
