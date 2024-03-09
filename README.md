@@ -1,8 +1,34 @@
-My dotfiles managed by GNU Stow.
+# My dotfiles managed by GNU Stow.
+
+## Adding additional configurations
+
+1. cd into .dofiles and mkdir <package-name>
+    
+    ``mkdir <package-name``
+
+    in .dotfiles we now should have:
+
+    .dotfiles/
+    | ctags/
+    |   | .ctags
+    | git/
+    |   | .gitconfig
+    | vim/
+    |   | .vimrc
+    | zsh/
+    |   | .zshrc
+    | <package-name>/
+
+2. mv dotfile into new directory in .doftiles
+
+    ``mv ~/.<dofile-name> ~/.dotfiles/<package-name>/<dotfile-name>``
+
+3. execute stow
+
+    ``stow <package-name>``
+
 
 ## Installation
-
-Based on a 2012 macbook running ubunu 22.04
 
 ### Installing zsh
 
@@ -41,13 +67,11 @@ Based on a 2012 macbook running ubunu 22.04
 
     and finally:
 
-    ``ssh-add <ssh.pub location>``
-    (I think this should be private key location instead....
-    I should fix this)
+    ``ssh-add <location>``
 
     clone frome github:
 
-    ``git clone git@<>``
+    ``git clone git@github.com:ethanfritzt/.dotfiles.git``
 
 3. install and activate stow
 
