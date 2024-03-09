@@ -11,10 +11,20 @@ filetype plugin on
 
 " plugins go here
 " prettier/vim-prettier
-Plug 'prettier/vim-prettier', { 'do': 'yarn install --frozen-lockfile --production' }
+Plug 'prettier/vim-prettier'
 
 " end vim-plug
 call plug#end()
+
+" prettier settings
+let g:prettier#autoformat_config_present = 1
+let g:prettier#autoformat_require_pragma = 0
+
+" netrw settings
+let g:netrw_winsize = 30
+let g:netrw_liststyle = 3
+let g:netrw_sort_sequence = '[\/]$,*'
+let g:netrw_browse_split = 0
 
 " syntax highlighting
 syntax enable
@@ -51,14 +61,9 @@ set ruler
 " tags
 set tags=./tags,tags;/
 
-" netrw
-let g:netrw_winsize = 30
-let g:netrw_liststyle = 3
-let g:netrw_sort_sequence = '[\/]$,*'
-let g:netrw_browse_split = 0
-
 " mappings
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
+
