@@ -4,3 +4,4 @@
 --exclude=package-lock.json
 
 --regex-javascript=/^[ \t]*const[ \t]\{1,\}\([a-zA-Z0-9_$]\{1,\}\)[ \t]*=[ \t]*(.*)[ \t]*=>/\1/f,function/b
+--regex-javascript=/^[ \t]*export[ \t]\{1,\}\(const\|let\|var\)[ \t]\{1,\}\([a-zA-Z0-9_$]\{1,\}\)[ \t]*/\2/e,export/b
