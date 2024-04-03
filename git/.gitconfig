@@ -1,7 +1,9 @@
 [user]
-    email = ethan.fritz@morelandconnect.com
+    email = ethanfritz.t@gmail.com
     name = Ethan Fritz
-    signingKey = ethan.fritz@morelandconnect.com
+    signingKey = ethanfritz.t@gmail.com
+[includeIf "gitdir:~/Moreland/"]
+    path = ~/Moreland/workconf/.gitconfig
 [core]
     editor = vim
 [log]
