@@ -1,0 +1,25 @@
+Host me.github.com
+HostName github.com
+UseKeychain yes
+User git
+IdentityFile ~/.ssh/ethan
+
+Host work.github.com
+HostName github.com
+UseKeychain yes
+User git
+IdentityFile ~/.ssh/ethan-work
+
+Host work.bitbucket.org
+HostName bitbucket.org
+UseKeychain yes
+User git
+IdentityFile ~/.ssh/ethan-work
+
+Host work.bnb-test.com
+HostName 162.215.217.56
+UseKeychain yes
+User git
+IdentityFile ~/.ssh/ethan-work
+PubkeyAcceptedAlgorithms +ssh-rsa
+HostkeyAlgorithms +ssh-rsa
