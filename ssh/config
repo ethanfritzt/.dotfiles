@@ -23,3 +23,10 @@ User git
 IdentityFile ~/.ssh/ethan-work
 PubkeyAcceptedAlgorithms +ssh-rsa
 HostkeyAlgorithms +ssh-rsa
+
+
+Host work.vs-ssh.visualstudio.com
+HostName vs-ssh.visualstudio.com
+UseKeychain yes
+User git
+IdentityFile ~/.ssh/ethan-work
