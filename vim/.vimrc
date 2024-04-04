@@ -68,6 +68,10 @@ set ruler
 " tags
 set tags=./tags,tags;/
 
+" fold
+set foldmethod=marker
+set foldmarker=#region,#endregion
+
 " mappings
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
