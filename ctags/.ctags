@@ -1,7 +1,0 @@
---langmap=javascript:.js.ts.jsx.tsx
---exclude=node_modules
---exclude=.git
---exclude=package-lock.json
-
---regex-javascript=/^[ \t]*const[ \t]\{1,\}\([a-zA-Z0-9_$]\{1,\}\)[ \t]*=[ \t]*(.*)[ \t]*=>/\1/f,function/b
---regex-javascript=/^[ \t]*export[ \t]\{1,\}const[ \t]\{1,\}\([a-zA-Z0-9_$]\{1,\}\)[ \t]*/\1/e,export/b
