@@ -1,0 +1,11 @@
+{
+  "lastChangelogVersion": "0.80.10",
+  "theme": "dark",
+  "defaultProvider": "openai-codex",
+  "defaultModel": "gpt-5.5",
+  "defaultThinkingLevel": "medium",
+  "extensions": [
+    "/home/ethanworkfed/Projects/pi-references-extension",
+    "/home/ethanworkfed/Projects/pi-mmc-mcp-extension"
+  ]
+}

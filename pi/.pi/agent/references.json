@@ -1,0 +1,9 @@
+{
+  "references": [
+    {
+      "name": "vault",
+      "path": "~/[ethanworkfed]",
+      "description": "Ethan's knowledge vault"
+    }
+  ]
+}
