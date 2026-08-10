@@ -1,11 +1,12 @@
 {
-  "lastChangelogVersion": "0.80.10",
+  "lastChangelogVersion": "0.84.1",
   "theme": "dark",
   "defaultProvider": "openai-codex",
-  "defaultModel": "gpt-5.5",
+  "defaultModel": "gpt-5.6-luna",
   "defaultThinkingLevel": "medium",
   "extensions": [
     "/home/ethanworkfed/Projects/pi-references-extension",
-    "/home/ethanworkfed/Projects/pi-mmc-mcp-extension"
+    "/home/ethanworkfed/Projects/pi-mmc-mcp-extension",
+    "/home/ethanworkfed/Projects/pi-local-telemetry"
   ]
 }
